@@ -16,7 +16,7 @@ contract MyGovernor is
 {
     constructor(IVotes _token)
         Governor("MyGovernor")
-        GovernorSettings(100, 1, 0)
+        GovernorSettings(1, 1, 0)
         GovernorVotes(_token)
         GovernorVotesQuorumFraction(4)
     {}
